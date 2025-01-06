@@ -1,24 +1,6 @@
-name: Waka Readme
+# Olá! Eu sou a Raquel D'Almeida! 
 
-on:
-  workflow_dispatch:
-  schedule:
-    # Runs at 00:00AM UTC
-    - cron: '0 0 * * *'
-
-jobs:
-  update-readme:
-    name: Update this repo's README
-    runs-on: ubuntu-latest
-    steps:
-      - uses: anmol098/waka-readme-stats@master #PLEASE USE MASTER BRANCH
-        with:
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          SHOW_PROJECTS: "False"
-          SHOW_LINES_OF_CODE: "True"
-          SHOW_LOC_CHART: "False"
-          LOCALE: "en"
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
 
  ### Main skills: 
  ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
